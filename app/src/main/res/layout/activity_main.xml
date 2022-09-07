@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:text="Computer Score"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </TextView>
+
+                     <TextView
+                         android:id="@+id/CompScore"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:textSize="60dp">
+                     </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:text="User Score"
+                    android:textColor="#F60000"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/UserScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="60dp">
+                </TextView>
+
+             </LinearLayout>
+
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/sonuc"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:textSize="30dp">
+       </TextView>
+
+       <TextView
+           android:id="@+id/PcSecim"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:textSize="20dp"
+           android:textStyle="italic">
+
+       </TextView>
+
+
+
+   </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+                    <Button
+                    android:id="@+id/tas"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="TAŞ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="Butonlar"    >
+                    </Button>
+
+                    <Button
+                    android:id="@+id/kagıt"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="75dp"
+                    android:text="KAĞIT"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="Butonlar"    >
+                    </Button>
+
+                    <Button
+                    android:id="@+id/makas"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="MAKAS"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="Butonlar"    >
+                    </Button>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
